@@ -33,4 +33,5 @@ $main = "Name =".$fname." ".$lname." Email =".$mailfrm." Message =".$mailMsg;
    {
        echo  '<script type="text/javascript">alert("Mail Sent")</script>';
    }
+header("Location: http://ethidox.xyz/js/test/tour/contact.html/");
 ?>
