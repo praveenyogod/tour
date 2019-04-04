@@ -17,7 +17,7 @@ $main = "Name =".$fname." ".$lname." Email =".$mailfrm." Message =".$mailMsg;
    $mail ->Port = 465; // or 587
    $mail ->IsHTML(true);
    $mail ->Username = "vermeshwar95@gmail.com";
-   $mail ->Password = "ethidox1";
+   $mail ->Password = "";
    $mail ->SetFrom("admin@esolarsonic.com");
    $mail ->Subject = $mailSub;
    $mail ->Body = $main;
